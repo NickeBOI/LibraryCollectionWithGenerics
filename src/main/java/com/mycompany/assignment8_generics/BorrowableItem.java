@@ -51,5 +51,18 @@ public class BorrowableItem extends LibraryItem implements Borrowable {
         return returnDate;
     }
     
+    @Override
+    public String getDescription(){
+        String s;
+        if(checkedOut){
+            s = super.getDescription() + ", Checked Out: Yes, Return"
+            + " Date: " + returnDate;
+        }
+        else{
+            s = super.getDescription() + ", Check Out: No ";
+        }
+        return s;
+    }
+    
     
 }
