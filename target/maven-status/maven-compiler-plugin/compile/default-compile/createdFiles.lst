@@ -1,0 +1,8 @@
+com\mycompany\assignment8_generics\LibraryItem.class
+com\mycompany\assignment8_generics\BorrowableItem.class
+com\mycompany\assignment8_generics\LibraryTest.class
+com\mycompany\assignment8_generics\Book.class
+com\mycompany\assignment8_generics\DVD.class
+com\mycompany\assignment8_generics\Borrowable.class
+com\mycompany\assignment8_generics\LibCollection.class
+com\mycompany\assignment8_generics\LibCollection$libraryIterator.class
